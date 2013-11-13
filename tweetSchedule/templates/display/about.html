@@ -1,0 +1,16 @@
+{% extends "display/display_base.html" %}
+
+{% block content %}
+<div class="row-fluid marketing">
+	<h3>How to use the service:</h3>
+	<p>The idea is simple. You tweet at us with a specific <i>#remindly</i> hashtag and
+	we will read your tweet and handle it from there. Once we receive your tweet we will
+	simply tweet at you and you will get your reminder, along with anyone else you include
+	<i>#who</i> portion of your tweet.</p>
+	<h3>Examples:</h3>
+	<p>#remindly #who @friend1 @friend2 #where McDonalds #when in 45 minutes #what Get Fat</p>
+	<p>#remindly #where house #what make dinner #when in 5 hours</p>
+	<p>#remindly #where friends house #what bring dinner #when in 6 hours</p>
+	<p>#remindly #what Set alarm #who @friend #when in 5 hours</p>
+</div>
+{% endblock %}
